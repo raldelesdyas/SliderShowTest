@@ -84,3 +84,21 @@ header{
 .gallery{
     background-color: yellowgreen;
 }
+
+img{
+    max-width: 100%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 5px;
+
+}
+.flex > div > img{
+    border-radius: 10px;
+}
